@@ -5,7 +5,7 @@
     <head>
     
         <link rel="stylesheet" type="text/css" href="style.css">
-        <title> TIM </title>
+        <title> Smart Life </title>
         
     </head>
 
@@ -15,7 +15,9 @@
             
             <div id="landmarks_left">
                 
+                 <a href="index.html">
                 <div id="logo"></div>
+               </a>
                 
                 <div id="menu">
                 
@@ -38,19 +40,7 @@
             </div>
             
             <div id="content">
-               <img src="images/main_timfoto_principale_dday.png" width="100%" height="350px" />
-                 <div id="highlights">
-	                 <h4> HIGHLIGHTS &nbsp; - &nbsp; Scopri i nostri servizi più usati! </h4>
-                     <ul>
-                        <li><a href="Assistance.html?cat=supportotecnico&id=0"> 
-                        	Assistenza Tecnica Specializzata con SOSsmartphone </a></li>
-                        <li><a href="Assistance.html?cat=gestionelinea&id=6">
-                        	Ricarica il tuo Dispositivo Online </a></li>
-                        <li><a href="Assistance.html?cat=controllocosti&id=4">
-                        	Verifica il tuo credito Residuo </a></li>
-                        <li><a href="#"> LE ASSISTENZE PIU' UTILIZZATE </a></li>
-                     </ul>
-                </div>
+               
                 
                 
             </div>
@@ -69,5 +59,22 @@
         </div>
        
     </body>
+     <script src = "JSfunctions.js">        </script>
+	 <script src = "jQuery.js">             </script>
+    
+	<script>
+    
+    var $_GET = {};
+	document.location.search.replace(/\??(?:([^=]+)=([^&]*)&?)/g, function () {
+    function decode(s) {
+        return decodeURIComponent(s.split("+").join(" "));
+    }
+
+    $_GET[decode(arguments[1])] = decode(arguments[2]);
+	});
+	
+	showSmartlife($_GET["cat"] + "/" + $_GET["id"]);
+	
+	</script>
 
 </html>

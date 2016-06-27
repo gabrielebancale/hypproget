@@ -5,7 +5,6 @@
     <head>
     
         <link rel="stylesheet" type="text/css" href="style.css">
-        <title> TIM </title>
         
     </head>
 
@@ -30,7 +29,7 @@
                     
                 </div>
                 
-                <a href="Form.html">
+                 <a href="Form.html">
                 <div id="form"></div>
                 </a>         
                 
@@ -38,19 +37,7 @@
             </div>
             
             <div id="content">
-               <img src="images/main_timfoto_principale_dday.png" width="100%" height="350px" />
-                 <div id="highlights">
-	                 <h4> HIGHLIGHTS &nbsp; - &nbsp; Scopri i nostri servizi più usati! </h4>
-                     <ul>
-                        <li><a href="Assistance.html?cat=supportotecnico&id=0"> 
-                        	Assistenza Tecnica Specializzata con SOSsmartphone </a></li>
-                        <li><a href="Assistance.html?cat=gestionelinea&id=6">
-                        	Ricarica il tuo Dispositivo Online </a></li>
-                        <li><a href="Assistance.html?cat=controllocosti&id=4">
-                        	Verifica il tuo credito Residuo </a></li>
-                        <li><a href="#"> LE ASSISTENZE PIU' UTILIZZATE </a></li>
-                     </ul>
-                </div>
+               
                 
                 
             </div>
@@ -59,15 +46,33 @@
                 
                 <div id="footer_img_sx"></div>
                 <div id="footer_fax"> FAX 98239082378  </div>
-                <div id="footer_img1_dx" class="footer_img_dx"></div>
-                <div id="footer_img2_dx" class="footer_img_dx"></div>
-                <div id="footer_img3_dx" class="footer_img_dx"></div>
-                <div id="footer_img4_dx" class="footer_img_dx"></div>
+                <div id="footer_img1_dx"></div>
+                <div id="footer_img2_dx"></div>
+                <div id="footer_img3_dx"></div>
+                <div id="footer_img4_dx"></div>
                 
             </div>
         
         </div>
        
     </body>
+    
+            <script src = "JSfunctions.js">        </script>
+	<script src = "jQuery.js">        </script>
+    
+<script>
+    
+    var $_GET = {};
+	document.location.search.replace(/\??(?:([^=]+)=([^&]*)&?)/g, function () {
+    function decode(s) {
+        return decodeURIComponent(s.split("+").join(" "));
+    }
+
+    $_GET[decode(arguments[1])] = decode(arguments[2]);
+	});
+	
+	showNeededDevices($_GET["cat"] + "/" + $_GET["id"]);
+	
+</script>
 
 </html>
