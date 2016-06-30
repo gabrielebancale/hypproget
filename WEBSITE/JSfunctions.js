@@ -17,7 +17,7 @@ function showDevices(str) {
 		
 		
 		
-        xmlhttp.open("GET", "http://hypprojectbancalecassani.altervista.org/WEBSITE/devices.php?cat=" + request[0] + "&id=" + request[1], true);
+        xmlhttp.open("GET", "http://hypprojectbancalecassani.altervista.org/devices.php?cat=" + request[0] + "&id=" + request[1], true);
         xmlhttp.send();
     }
 }
@@ -39,7 +39,7 @@ function showSmartlife(str) {
 		
 		
 		
-        xmlhttp.open("GET", "http://hypprojectbancalecassani.altervista.org/WEBSITE/smartlife.php?cat=" + request[0] + "&id=" + request[1], true);
+        xmlhttp.open("GET", "http://hypprojectbancalecassani.altervista.org/smartlife.php?cat=" + request[0] + "&id=" + request[1], true);
         xmlhttp.send();
     }
 }
@@ -53,7 +53,7 @@ function showPromo() {
                 document.getElementById("content").innerHTML = xmlhttp.responseText;
             }
         };
-        xmlhttp.open("GET", "http://hypprojectbancalecassani.altervista.org/WEBSITE/promotions.php?promo=default", true);
+        xmlhttp.open("GET", "http://hypprojectbancalecassani.altervista.org/promotions.php?promo=default", true);
         xmlhttp.send();
 		
     
@@ -68,7 +68,7 @@ function showHighlights() {
                 document.getElementById("content").innerHTML = xmlhttp.responseText;
             }
         };
-        xmlhttp.open("GET", "http://hypprojectbancalecassani.altervista.org/WEBSITE/highlights.php?highlights=default", true);
+        xmlhttp.open("GET", "http://hypprojectbancalecassani.altervista.org/highlights.php?highlights=default", true);
         xmlhttp.send();
 		
     
@@ -91,7 +91,7 @@ function showAvailableSL(str) {
 		
 		
 		
-        xmlhttp.open("GET", "http://hypprojectbancalecassani.altervista.org/WEBSITE/availableSL.php?cat=" + request[0] + "&id=" + request[1], true);
+        xmlhttp.open("GET", "http://hypprojectbancalecassani.altervista.org/availableSL.php?cat=" + request[0] + "&id=" + request[1], true);
         xmlhttp.send();
     }
 }
@@ -112,7 +112,7 @@ function showAssistanceService(str) {
 		
 		
 		
-        xmlhttp.open("GET", "http://hypprojectbancalecassani.altervista.org/WEBSITE/assistance.php?cat=" + request[0] + "&id=" + request[1], true);
+        xmlhttp.open("GET", "http://hypprojectbancalecassani.altervista.org/assistance.php?cat=" + request[0] + "&id=" + request[1], true);
         xmlhttp.send();
     }
 }	
@@ -134,7 +134,7 @@ function showFAQ(str) {
 		
 		
 		
-        xmlhttp.open("GET", "http://hypprojectbancalecassani.altervista.org/WEBSITE/FAQ.php?cat=" + request[0] + "&id=" + request[1], true);
+        xmlhttp.open("GET", "http://hypprojectbancalecassani.altervista.org/FAQ.php?cat=" + request[0] + "&id=" + request[1], true);
         xmlhttp.send();
     }
 }
@@ -156,7 +156,7 @@ function showActivationRules(str) {
 		
 		
 		
-        xmlhttp.open("GET", "http://hypprojectbancalecassani.altervista.org/WEBSITE/activationRules.php?cat=" + request[0] + "&id=" + request[1], true);
+        xmlhttp.open("GET", "http://hypprojectbancalecassani.altervista.org/activationRules.php?cat=" + request[0] + "&id=" + request[1], true);
         xmlhttp.send();
     }
 }
@@ -178,7 +178,7 @@ function showNeededDevices(str) {
 		
 		
 		
-        xmlhttp.open("GET", "http://hypprojectbancalecassani.altervista.org/WEBSITE/needed_devices.php?cat=" + request[0] + "&id=" + request[1], true);
+        xmlhttp.open("GET", "http://hypprojectbancalecassani.altervista.org/needed_devices.php?cat=" + request[0] + "&id=" + request[1], true);
         xmlhttp.send();
     }
 }
