@@ -40,7 +40,7 @@
 		echo
 			'<br>'.'<br>'.
 			'<div id="link_style" class="link_sl_prev">'.
-           		'<a href="Device.html?cat='.$cat. '&id='. $id .'" >'. "ATTIVABILE SU !".'</a>'.
+           		'<a href="NeededDev.html?cat='.$cat.'&id='.$id.'" >'. "ATTIVABILE SU !".'</a>'.
         	'</div>';
 			
 		//contenuti 
@@ -98,7 +98,7 @@
 		echo
 			'<br>'.'<br>'.
 			'<div id="link_style" class="link_sl_prev">'.
-           		'<a href="Device.html?cat='.$cat. '&id='. $id .'" >'. "ATTIVABILE SU !".'</a>'.
+           		'<a href="NeededDev.html?cat='.$cat.'&id='.$id.'" >'. "ATTIVABILE SU !".'</a>'.
         	'</div>';
 			
 		//contenuti 
