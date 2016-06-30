@@ -1,0 +1,828 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: blue;
+    background-image: url(images/Background.jpg);
+    background-repeat: repeat;
+    background-size: 100% 100%;
+}
+
+#container
+{
+    width: 100%;
+    height: 100%;   
+}
+
+#landmarks_left
+{
+    width: 22%;
+    height: 92%;
+    float: left;
+    background-image: url(images/img1.jpg);
+    background-size:cover;  
+    position: fixed;
+}
+
+#content
+{
+    width: 76%;
+    height: auto;
+    min-height: 92%;
+    float: right;
+    background-color:rgba(153, 204, 255, 0.7);
+    font-size:16px;
+    font-style: normal;
+    text-align: center;
+    font-weight:bold;
+	margin-right:13px;
+}
+
+#highlights
+{
+	text-align:left;
+	padding-left:330px;	
+}
+
+#highlights a, #highlights a:visited
+{
+	text-decoration:none;
+	color: rgba(19,0,118,1.00);
+	list-style:none;
+	font-style:italic;
+}
+
+#highlights a:hover
+{
+	color:blue;	
+}
+
+#logo
+{
+    width: 100%;
+    height: 20%;
+    background-image: url(images/tim.JPG);
+    background-size : 100% 100%
+}
+
+#menu
+{
+    width: 100%;
+    height: 65%;
+	
+}
+
+#form
+{
+    width: 75%;
+    height: 10%;
+    background-image: url(images/contattaci.PNG);
+    background-size: 100% 100%;
+	margin-top:7px;
+}
+
+
+#footer
+{
+    width: 99%;
+    height: 8%;
+    background-color: cadetblue;
+    clear: both;
+    bottom: 0;
+}
+
+#footer_img_sx
+{
+    height: 100%;
+    width: 15%;
+    background-image: url(images/assistenzatecnica2.jpg);
+    background-size: 100% 100%;
+    float: left;
+}
+
+#footer_fax
+{
+    height: 100%;
+    width: 15%;
+    float: left;
+    text-align: center;
+	padding-top:17px;
+}
+
+.footer_img_dx
+{
+	margin-left:5px;
+	margin-top:10px;
+	height: 50%;	
+	float:right;
+}
+
+#footer_img1_dx
+{  
+    width: 4%;
+    background-image: url(images/Facebook.JPG);
+    background-size: 100% 100%;
+	margin-right:15px;
+}
+
+#footer_img2_dx
+{
+    width: 4%;
+    background-image: url(images/google+.png);
+    background-size: 100% 100%;
+}
+
+#footer_img3_dx
+{
+    width: 4%;
+    background-image: url(images/twitter.png);
+    background-size: 100% 100%;
+}
+
+#footer_img4_dx
+{
+    width: 8%;
+	height:60%;
+    background-image: url(images/YouTube-logo-full_color.png);
+    background-size: 100% 100%;
+}
+
+#menu ul
+{
+    padding:0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#menu ul li
+{
+    list-style: none;
+    padding: 0px;
+    width:100%;
+    height: 16.666%;
+    text-align:left;
+}
+
+#menu ul li a, #menu ul li a:visited
+{
+	display: block;
+    list-style: none;
+    padding-top: 12px;
+    width:98%;
+    height:75%;
+    border-style: solid;
+    border-color: cadetblue;
+    text-align:center;
+    background-color:rgba(198,231,232,1.00);
+    background-repeat:repeat-x;
+    font: arial;
+    color:rgba(19,0,118,1.00);
+    text-decoration:none;
+    font-size:20px;
+    font-weight:bold;
+}
+
+#menu ul li a:hover
+{
+    color:blue;	
+}
+
+#innovazione
+{
+	width:100%;
+}
+
+#ambiente_sociale
+{
+	width:40%;
+}
+
+#chi_siamo 
+{
+width: 98%;
+height: 180px;
+}
+
+#chi_siamo td
+{
+width: 37%;	
+}
+
+#chi_siamo th
+{
+width: 33%;
+padding-right: 30px;
+}
+
+#chi_siamo a 
+{
+color:rgba(220,0,3,1.00);
+font-style:italic;
+font-size:12px;
+}
+
+#group_description
+{
+width: 100%;
+height:55px;
+font-size:24px;	
+background-color: rgba(198,231,232,1.00);
+border-bottom-color:rgba(0,0,0,1.00);
+border-style:solid;
+color:rgba(19,0,118,1.00);
+font-weight:bold;
+margin-top:100px;
+}
+
+#group_description th, #group_description td
+{
+width: 33%;
+text-align:center;	
+}
+
+#group_description a
+{
+text-decoration:none;
+color: rgba(19,0,118,1.00);
+}
+#group_description a:hover
+{
+color: blue;
+}
+
+#news_1
+{
+width:99%;
+}
+
+#news_1 td
+{
+width: 20%;
+}
+
+#news_2
+{
+width:100%;
+height:100%;
+}
+
+#news_2 th
+{
+width: 100%;
+color:rgba(0,0,0,1.00);
+font-size:18px;
+font-style:italic;
+background-color: rgba(198,231,232,1.00);
+
+}
+
+#news_2 p
+{
+width: 100%;
+margin-left: 5px;
+}
+
+#business_market
+{
+width:99%;
+height:450px;
+background-color: rgba(208,208,208,1.00);
+color: rgba(49,48,48,1.00);
+border-color: black;
+border-style:solid;
+}
+
+#business_market th
+{
+background-color: rgba(213,0,3,1.00);
+color:rgba(217,210,210,1.00);
+border-color: white;
+height:50px;
+font-size:16px;
+text-align:center;
+}
+
+#investimenti
+{
+background-color:rgba(87,10,193,1.00);
+border-color: black;
+height:30px;
+font-size:14px;
+font-style:oblique;
+font-weight:600;
+color: black;
+}
+
+#for_investors
+{
+width:100%;
+background-color:rgba(245,255,216,1.00);
+color:black;
+font-weight:700;
+font-size:14px;
+text-align:center;
+}
+
+#for_investors td
+{
+width:75%;
+}
+
+#for_investors ul
+{
+text-align:left;
+}
+
+html, body {
+text-align: left;
+height: 100%;
+text-decoration:none;
+}
+
+.db_link a {
+	color: rgba(19,0,118,1.00);
+    text-decoration: none;	
+}
+
+.db_link a:hover
+{
+    color: blue;
+}
+
+.p {
+	text-align: left;
+	width:100%;
+	height:auto;
+}
+
+#assistance_service
+{
+	margin-top:30px;		
+}
+
+.categories {
+	margin-top:100px;
+	margin-left:80px;
+}
+
+.categories td {
+	width:30%;
+}
+
+.categories a{
+    color: rgba(19,0,118,1.00);
+    text-decoration: none;
+}
+
+.categories a:hover
+{
+    color: blue;
+}s
+
+#evidenza
+{
+width:100%;
+height:100px;
+}
+
+#evidenza a{
+    color: rgba(19,0,118,1.00);
+    text-decoration: none;
+	font-size:22px;
+}
+
+#evidenza a:hover
+{
+    color: blue;
+}
+
+#testimonials_1
+{
+width:100%;
+height:100%;
+}
+
+#testimonials_2
+{
+width: 100%;
+height:100%;
+}
+
+#innovations
+{
+width:100%;	
+}
+
+#innovations td
+{
+height:200px;	
+}
+
+
+.device_image 
+{
+    width: 30%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    margin-bottom: 8%;
+    float: left;
+	color: rgba(19,0,118,1.00);
+	font-size:20px;
+}
+
+
+
+.device_description
+{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 0%;
+    float: right;
+	color: rgba(19,0,118,1.00);
+	font-size:20px;
+	text-align:left;
+}
+
+
+.titolo_content
+{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+	color: rgba(19,0,118,1.00);
+	margin-top: 15px;
+}
+
+.device_service_links
+{
+    margin-left: 10%;
+    float: left;
+}
+
+.prev_next_links
+{
+    width: 100%;
+    clear: both;
+	font-size:30px;
+	color: rgba(19,0,118,1.00);
+}
+
+.device_link_prev
+{
+    width: 20%;
+    float:left;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.device_link_next
+{
+    width: 20%;
+    float:right;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.smartlife
+{
+    width: 100%;
+    height: auto;
+    clear: both;
+	font-size:20px;
+	color: rgba(19,0,118,1.00);
+}
+
+#smart_life_table
+{
+	color:#000;
+	background:#CCC;
+	border:thick;
+	border-style:solid;	
+}
+
+.sl_img_sx
+{
+    width: 36%;
+    float:left;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.sl_img_dx
+{
+    width: 36%;
+    float:right;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.sl_desc_title
+{
+	text-align:center;
+	font-size:30px;
+	font-weight:bold;
+	font-stretch:expanded;
+}
+
+.sl_descr_dx
+{
+    width: 56%;
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: right;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.sl_descr_sx
+{
+    width: 56%;
+    float: right;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    text-align: left;
+}
+
+.link_sl
+{
+	color: rgba(19,0,118,1.00);
+	width:100%;
+	font-size:16px;
+}
+
+.link_sl_prev_casafamiglia
+{
+	width: 20%;
+    float:left;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 9px;
+	margin-left:10px;	
+}
+
+.link_sl_next_casafamiglia
+{
+	width: 20%;
+    float:right;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;	
+}
+
+.link_sl_prev
+{
+	width: 40%;
+    float:left;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 9px;
+	margin-left:10px;	
+}
+
+.link_sl_next
+{
+	width: 40%;
+    float:right;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;	
+}
+
+.SL_image
+{
+	width:50%;
+	height:480px;
+	float:left;	
+	margin-left:0px;
+}
+
+.SL_image1
+{
+	width:50%;
+	height:50%;
+	float:left;	
+}
+
+.SL_image2
+{
+	width:50%;
+	height:50%;
+	float:right;	
+	margin-top:-40px;
+}
+
+.SL_image3
+{
+	width:100%;
+	height:200px;	
+	margin-top:10px;
+}
+
+.tipolinea
+{
+	color:rgba(51,51,51,1);
+	font-size:24px;	
+	padding-left:50px;
+	margin-left:-100px;
+}
+
+.tiposervizio
+{
+	color:rgba(0,0,51,1);
+	font-size:21px;
+	font-style:italic;
+	text-align:left;
+	padding-left:135px;
+}
+
+.servizio
+{
+	color:rgba(0,0,255,1);
+	font-size:17px;
+	text-align:left;
+	padding-left:150px;
+}
+
+.content
+{
+	font-size:20px;
+	color: rgba(19,0,118,1.00);
+	text-align:left;
+	margin-left:10px;
+}
+
+.image_assistance
+{
+	width:70%;
+	height:90%;	
+	margin-left:15px;
+	margin-top:15px;
+	
+}
+
+.FAQ 
+{
+	width:30%;
+	font-size:22px;
+	background-color:rgba(153,153,153,1);
+	color:rgba(51,51,51,1);
+	height:50px;
+	margin-left:30%;
+	padding-top:20px;
+	text-align:center;
+}
+
+#activation
+{
+ float: left;
+ font-size:16px;	
+ width:45%;
+}
+
+.activation_image
+{
+	width:50%;
+	height:20%;
+	float:right;	
+}
+
+#linkSLTimGames
+{
+	padding-top:150px;	
+	margin-left:50px;
+}
+
+.content_activation
+{
+	float:left;	
+}
+
+#netflix
+{
+	width:85%;
+	height:20%;
+	text-align:center;	
+	margin-left:60px;
+	padding-top:20px;
+	color: rgba(19,0,118,1.00);
+	font-style:italic;
+}
+
+#netflix td
+{
+ 	width:25%;
+ 	height:100px;	
+}
+
+#link_style a, #link_style a:visited
+{
+	text-decoration:none;
+	color: rgba(19,0,118,1.00);
+	list-style:none;
+	font-style:italic;
+}
+
+#link_style a:hover
+{
+	color:blue;	
+}
+
+#link_style_NI a, #link_style_NI a:visited
+{
+	text-decoration:none;
+	color: rgba(255,0,0,1);
+	list-style:none;
+}
+
+#link_style_NI a:hover
+{
+	color:rgba(204,51,0,1);
+}
+
+#form_img{
+    
+    width: 100%;
+}
+
+#highlights_table
+{
+	width:100%;
+	height:80%;
+	margin-top:-5px;
+}
+
+#highlights_table tr
+{
+	width:100%;	
+}
+
+#highlights_table td
+{
+	width:33%;
+	height:300px;
+}
+
+#highlights_table_1
+{
+	width:100%;
+	height:80%;
+	margin-top:-5px;
+}
+
+#highlights_table_1 tr
+{
+	width:100%;	
+}
+
+#highlights_table_1 td
+{
+	width:33%;
+	height:300px;
+}
+
+#img_highlights
+{	
+	height:50px;
+	vertical-align:bottom;
+}
+
+#highlights_table_1 p
+{
+	font-size:20px;
+	font-weight:bold;
+	font-stretch:wider;
+	color: rgba(19,0,118,1.00);
+}
+
+.controllocosti
+{
+	float:right;
+	width:20%;
+	margin-right:5px;
+}
+
+.supportotecnico
+{
+	float:left;
+	width:20%;	
+	margin-left:5px;
+}
+
+.gestionelinea
+{
+	text-align:center;
+	width:20%;
+	margin-left:370px;
+}

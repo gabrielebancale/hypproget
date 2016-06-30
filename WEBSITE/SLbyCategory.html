@@ -1,0 +1,80 @@
+<!doctype html>
+
+<html lang="it">
+
+    <head>
+    
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title> SLByCategory </title>
+        
+    </head>
+
+    <body>
+        
+        <div id ="container">
+            
+            <div id="landmarks_left">
+                
+                <a href="index.html">
+                <div id="logo"></div>
+               </a>
+               
+                <div id="menu">
+                
+                    <ul>
+                        <li><a href="ChiSiamo.html">CHI SIAMO</a></li>
+                        <li><a href="GroupDescription.html">IL NOSTRO GRUPPO</a></li>
+                        <li><a href="Promotions.html">PROMOZIONI</a></li>
+                        <li><a href="AllDevicesCategories.html">DISPOSITIVI</a></li>
+                        <li><a href="AllSLCategories.html">SMART LIFE</a></li>
+                        <li><a href="AllAssistanceServicesCategories.html">ASSISTENZA</a></li>
+                    </ul>
+                    
+                </div>
+                
+              <a href="Form.html">
+                <div id="form"></div>
+                </a>         
+                
+                
+            </div>
+            
+            <div id="content">
+               
+                loading...
+                
+            </div>
+            
+            <div id="footer">
+                
+                <div id="footer_img_sx"></div>
+                <div id="footer_fax"> FAX 98239082378  </div>
+                <div id="footer_img1_dx" class="footer_img_dx"></div>
+                <div id="footer_img2_dx" class="footer_img_dx"></div>
+                <div id="footer_img3_dx" class="footer_img_dx"></div>
+                <div id="footer_img4_dx" class="footer_img_dx"></div>
+                
+            </div>
+        
+        </div>
+       
+    </body>
+    
+    <script src = "JSfunctions.js">        </script>
+	<script src = "jQuery.js">        </script>
+    
+<script>
+    
+    var $_GET = {};
+	document.location.search.replace(/\??(?:([^=]+)=([^&]*)&?)/g, function () {
+    function decode(s) {
+        return decodeURIComponent(s.split("+").join(" "));
+    }
+
+    $_GET[decode(arguments[1])] = decode(arguments[2]);
+	});
+    showSmartlife($_GET["cat"] + "/" + "null");
+	
+</script>
+
+</html>
